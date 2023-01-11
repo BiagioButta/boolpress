@@ -1,7 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
     
-    show
+    <h1>{{$post->title}}</h1>
+    <p>{{$post->content}}</p>
 
 @endsection
